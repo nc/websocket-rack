@@ -4,7 +4,6 @@ module Rack
 
       autoload :Base, "#{ROOT_PATH}/websocket/handler/base"
       autoload :Stub, "#{ROOT_PATH}/websocket/handler/stub"
-      autoload :Thin, "#{ROOT_PATH}/websocket/handler/thin"
 
       # Detect current server using software Rack string
       def self.detect(env)

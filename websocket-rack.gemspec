@@ -15,7 +15,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'rack'
   s.add_dependency 'em-websocket', '~> 0.3.8'
   s.add_dependency 'eventmachine', '~> 1.0.0'
-  s.add_dependency 'thin' # Temporary until we support more servers
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
